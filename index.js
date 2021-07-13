@@ -11,6 +11,7 @@ const generateHTML = require('./src/htmlGenerator');
 //const htmlGenerator = 
 let teamArray = [];
 
+// setup the file writer
 const htmlFile  = util.promisify(fs.writeFile);
 
 const initialQuestions = [
@@ -36,13 +37,13 @@ const initialQuestions = [
     }
 ];
 
+//handle prompt loops for input
 const teamMemberPrompt = [
     {
         type: 'list',
-        message: 'What type of team member would you like to add?',
+        message: 'What type of team profile would you like to add?',
         name: 'teamMemberType',
-        choices: ['Engineer', 'Intern','[FINISH]']
-
+        choices: ['Engineer', 'Intern','>>Generate and Exit<<']
     }
 ];
 

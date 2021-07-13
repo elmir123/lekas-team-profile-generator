@@ -44,7 +44,6 @@ const teamCards = (teamArray) => {
             throw("ERROR: Please check the input type.")
         }
     });
-
     return teamCardsHTML;
 }
 
