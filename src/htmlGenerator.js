@@ -21,7 +21,7 @@ const generateHTML = (teamArray) =>
                 <h1 class="display-5" href="#">Lekas Team Profile Generator</h1>
                 </div>
             </nav>
-            <div style="col col-md-4">
+            <div class="row">
                 ${teamCards(teamArray)}
             </div>
         </body>
@@ -50,9 +50,9 @@ const teamCards = (teamArray) => {
 //manager HTML card
 const managerCard = (manager) => {
     return `
-    <div class="col col-md-4 card text-center" style="margin: 20px;"> 
-            <h5 class="card-title" style="padding: 10px;">
-                <i class="fas fa-user-tie"></i> ${manager.name} : Manager
+    <div class="col-12 card text-center shadow" style="margin: 20px;"> 
+            <h5 class="card-title text-primary" style="color:white; padding: 10px;">
+                <i class="fas fa-user-tie"></i> Manager: ${manager.name} 
             </h5>
             <div class="card-body">
                 <div class="card">
@@ -72,15 +72,19 @@ const managerCard = (manager) => {
                 </div>            
             </div>
     </div>
+    </div>
+
+    <!-- load team members -->
+    <div class="row">
     `;
 }
 
 //engineer HTML card
 const engineerCard = (engineer) => {
     return `
-    <div class="col col-md-4 card text-center" style="margin: 20px;"> 
-            <h5 class="card-title" style="padding: 10px;">
-                <i class="fas fa-cogs"></i> ${engineer.name} : Engineer
+    <div class="col-md-3 card text-center shadow" style="margin: 20px;"> 
+            <h5 class="card-title text-secondary" style="color:white; padding: 10px;">
+                <i class="fas fa-cogs"></i> Engineer: ${engineer.name}
             </h5>
             <div class="card-body">
                 <div class="card">
@@ -106,9 +110,9 @@ const engineerCard = (engineer) => {
 //intern HTML card
 const internCard = (intern) => {
     return `
-    <div class="col col-md-4 card text-center" style="margin: 20px;"> 
-        <h5 class="card-title" style="padding: 10px;">
-            <i class="fas fa-user-graduate"></i> ${intern.name} : Intern
+    <div class="col-md-3 card text-center shadow" style="margin: 20px;"> 
+        <h5 class="card-title text-danger" style="color:white; padding: 10px;">
+            <i class="fas fa-user-graduate"></i> Intern: ${intern.name}
         </h5>
         <div class="card-body">
             <div class="card">

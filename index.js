@@ -43,7 +43,7 @@ const teamMemberPrompt = [
         type: 'list',
         message: 'What type of team profile would you like to add?',
         name: 'teamMemberType',
-        choices: ['Engineer', 'Intern','>>Generate and Exit<<']
+        choices: ['Engineer', 'Intern','>>Generate HTML and Exit<<']
     }
 ];
 
