@@ -51,7 +51,7 @@ const teamCards = (teamArray) => {
 //manager HTML card
 const managerCard = (manager) => {
     return `
-    <div class="card text-center" style="margin: 20px;"> 
+    <div class="col col-md-4 card text-center" style="margin: 20px;"> 
             <h5 class="card-title" style="padding: 10px;">
                 <i class="fas fa-user-tie"></i> ${manager.name} : Manager
             </h5>
@@ -72,16 +72,16 @@ const managerCard = (manager) => {
                     </div>
                 </div>            
             </div>
-        </div>
+    </div>
     `;
 }
 
 //engineer HTML card
 const engineerCard = (engineer) => {
     return `
-    <div class="card text-center" style="margin: 20px;"> 
+    <div class="col col-md-4 card text-center" style="margin: 20px;"> 
             <h5 class="card-title" style="padding: 10px;">
-                <i class="fas fa-tools"></i> ${engineer.name} : Engineer
+                <i class="fas fa-cogs"></i> ${engineer.name} : Engineer
             </h5>
             <div class="card-body">
                 <div class="card">
@@ -100,14 +100,14 @@ const engineerCard = (engineer) => {
                     </div>
                 </div>            
             </div>
-        </div>
+    </div>
     `;
 }
 
 //intern HTML card
 const internCard = (intern) => {
     return `
-    <div class="card text-center" style="margin: 20px;"> 
+    <div class="col col-md-4 card text-center" style="margin: 20px;"> 
         <h5 class="card-title" style="padding: 10px;">
             <i class="fas fa-user-graduate"></i> ${intern.name} : Intern
         </h5>
