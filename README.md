@@ -15,5 +15,8 @@ The following image demonstrates the web application's appearance:
 
 ![Team Profile Generator.](./assets/images/team-generator.png)
 
+To view the demo of this app go to:
+https://youtu.be/PEYCpa3aPww
+
 
 
