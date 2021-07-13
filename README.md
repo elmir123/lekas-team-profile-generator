@@ -9,12 +9,11 @@ Steps:
 - You are than prompted with options to add intern on engineer
 - After making a selection you are asked information about the profile
 - After completing the profile questions you are prompted with profile type options
+- or choose to exit and generate the html
 
 The following image demonstrates the web application's appearance:
 
-![Team Profile Generater.](./Assets/images/team-generator.png)
+![Team Profile Generator.](./Assets/images/team-generator.png)
 
-To view the working app use the link below:
 
-https://elmir123.github.io/password-generator/
 
