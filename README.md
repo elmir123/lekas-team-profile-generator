@@ -13,7 +13,7 @@ Steps:
 
 The following image demonstrates the web application's appearance:
 
-![Team Profile Generator.](./Assets/images/team-generator.png)
+![Team Profile Generator.](./assets/images/team-generator.png)
 
 
 
